@@ -1,0 +1,28 @@
+{
+  "name": "boilerp",
+  "version": "1.0.1",
+  "description": "CLI tool to download updated boilerplates",
+  "main": "boilerp.js",
+  "bin": {
+    "boilerp": "boilerp.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arqex/boilerp.git"
+  },
+  "author": "Javier Marquez (javi@arqex.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arqex/boilerp/issues"
+  },
+  "homepage": "https://github.com/arqex/boilerp#readme",
+  "dependencies": {
+    "enpeem": "^2.2.0",
+    "git-cli": "^0.10.0",
+    "inquirer": "^3.1.0",
+    "npm-check-updates": "^2.11.3"
+  }
+}
